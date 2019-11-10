@@ -1,7 +1,116 @@
+<!DOCTYPE html>
 <html>
-
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Лабораторный работы Алексея Зубарева</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+      /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+      .row.content {height: 1500px}
+      
+      /* Set gray background color and 100% height */
+      .sidenav {
+        background-color: #f1f1f1;
+        height: 100%;
+      }
+      
+      /* Set black background color, white text and some padding */
+      footer {
+        background-color: #555;
+        color: white;
+        padding: 15px;
+      }
+      
+      /* On small screens, set height to 'auto' for sidenav and grid */
+      @media screen and (max-width: 767px) {
+        .sidenav {
+          height: auto;
+          padding: 15px;
+        }
+        .row.content {height: auto;} 
+      }
+    </style>
+</head>
 <body>
-<p>Hello</p>
-<b>mister</b>
+        <div class="container-fluid">
+                <div class="row content">
+                  <div class="col-sm-3 sidenav">    
+                      <br>               
+                        <div class="thumbnail">
+                               
+                                  <img src="images/avatar.jpg" alt="avatar" style="width:100%">
+                                  <div class="caption">
+                                    <h2>Алексей Зубарев</h2>
+                                  </div>
+                              
+                              </div>
+                    <ul class="nav nav-pills nav-stacked">
+                      <li class="active"><a href="#section1">О странице</a></li>
+                      <li><a href="#section2">Лабараторная работа №1</a></li>
+                      <li><a href="#section3">Лабораторная работа №2</a></li>
+                      <li><a href="#section3">Лабораторная работа №3</a></li>
+                    </ul><br>
+
+                  </div>
+              
+                  <div class="col-sm-9">
+                   
+                    <h2>О странице</h2>
+                    <hr>
+                    <h3>IDM-19-06</h3>
+                    
+                    <p>На данной странице представленны результаты выполнения трёх лабораторных работ по дисциплине <a target="_blank" href="https://github.com/stankin/inet-2019">Интернет-Технологии</a>.</p>
+                    <br>
+                    
+                    <h2><small>Списко лабораторных работ:</small></h2>
+                    <hr>
+                    <h2 id="section2">Лабораторная работа №1</h2>
+
+                    <p>Работа состоит из двух этапов:</p>
+                    <div class="row">
+                            <div class="col-md-4">
+                              <div class="thumbnail">
+                                <a href="https://github.com/Zubarev03041986">
+                                  <img src="images/step1.png" alt="step1" style="width:100%">
+                                  <div class="caption">
+                                    <p>ПЕРВЫЙ ЭТАП. Создание учетной записи GitHub.</p>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="thumbnail">
+                                <a href="https://zubarev03041986.github.io/AVZubarevSTANKIN/">
+                                  <img src="images/step2.png" alt="Step2" style="width:100%">
+                                  <div class="caption">
+                                    <p>ВТОРОЙ ЭТАП. Создание страницы-отчёта GitHub</p>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                     
+                          </div>
+
+                    <hr>
+                    <h2 id="section3">Лабораторная работа №2</h2>
+                    <p>Здесь будет содержание второй работы</p>
+
+                    <hr>
+                    <h2 id="section4">Лабораторная работа №3</h2>
+                    <p>Здесь будет содержание второй работы</p>
+
+                  </div>
+                </div>
+              </div>
+              
+              <footer class="container-fluid">
+                <p>Разработал Зубарев Алексей © 2019</p>
+              </footer>
 </body>
 </html>
